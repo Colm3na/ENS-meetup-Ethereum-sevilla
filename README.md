@@ -50,8 +50,11 @@ Comprobamos en un [explorador de bloques](https://etherscan.io/) que nuestra tra
 ![ens12](Images/ens12.png)
 
 Después, debemos esperar el tiempo mínimo para revelar nuestra subasta. Una vez que ha pasado el tiempo necesario (3 días) podemos revelar nuestra oferta, para ello abrimos la pagina de MyCrypto, hacemos clic en `“TOOLS” > “ENS Domains”`, introducimos nuestro dominio, nos redirige a la página [legacy de MyCrypto](https://legacy.mycrypto.com/) y desbloqueamos nuestra wallet. 
-Una vez desbloqueada debemos introducir en el espacio _“Long string of text you copied”_ el texto copiado y hacemos clic en _“Reveal your Bid”_ 
+Una vez desbloqueada, debemos introducir en el espacio `“Long string of text you copied”` el texto copiado y hacemos clic en _“Reveal your Bid”_ 
 ![ens13](Images/ens13.png)
+
 
 Cuando hayan pasado los días necesarios para la finalización de nuestro dominio podemos entrar en [MyCrypto](https://mycrypto.com/ens) introducir nuestro dominio y veremos que ya es nuestro.
 ![ens13](Images/ens14.png)
+
+Si hemos seguido estos pasos ya tenemos nuestro dominio `.ens`, asi que desde ahora, en vez de tener que acordarnos de esa dirección tan larga (_de la que nadie se acuerda_), sólo debemos recordar el nombre que hemos seleccionado, y ese nombre será nuestra dirección de Ethereum.
