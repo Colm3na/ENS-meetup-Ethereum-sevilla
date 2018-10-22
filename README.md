@@ -67,19 +67,27 @@ En esta ocasión voy a usar el complemento de [Metamask](https://metamask.io/) p
 ![niftyGif](Images/niftyGif.gif)
 
 Con estos pasos ya tenemos nuestra wallet creada anteriormente con MyCrypto importada en el complemento de Metamask.
+
 ![nifty4](Images/nifty4.png)
 
+
 Una vez que tenemos la sesión iniciada en el complemento de Metamask, abrimos la página de ensnifty y hacemos clic en _”Connect to Metamask”_
+
 ![niftyGif2](Images/niftyGif2.gif)
 
+
 Como vemos nos dice que no tenemos tokenizados ningún dominio, así que hacemos clic en _”Tokenize Domain”_
+
 ![nifty7](Images/nifty7.png)
+
 
 Introducimos en el recuadro nuestro dominio y hacemos clic en _”Submit”_ (es importante poner el .eth, si no nos dará un error)
 ![nifty9](Images/nifty9.png)
 
 Metamask tendrá una notificación, con los valores aproximados para la transacción que queremos hacer, yo no voy a modificar ningún valor
+
 ![nifty10](Images/nifty10.png)
+
 
 Una vez que esa transacción se haya realizado sin problemas, Metamask tendrá otra notificación (como antes no voy a modificar los valores), hacemos clic en ella y aceptamos
 ![nifty11](Images/nifty11.png)
