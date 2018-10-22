@@ -7,7 +7,7 @@ Para registrar nuestro dominio en [ENS](https://ens.domains/) vamos a usar [MyCr
  ```
  $ chmod a+x linux-x86-64_1.4.0_MyCrypto.AppImage
  ```
-    ##ens1.png
+    ![ens1.png](/images/ens1.png)
 
 Y lo ejecutamos con (posteriormente ya podemos abrirlo haciendo clic en el icono) :
 ```
@@ -50,4 +50,3 @@ Una vez desbloqueada debemos introducir en el espacio “Long string of text you
 
 Cuando hayan pasado los días necesarios para la finalización de nuestro dominio podemos entrar en [MyCrypto](https://mycrypto.com/ens) introducir nuestro dominio y veremos que ya es nuestro.
     ##ens14.png
-    
