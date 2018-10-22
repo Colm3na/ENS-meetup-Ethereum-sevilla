@@ -19,11 +19,13 @@ $ ./linux-x86-64_1.4.0_MyCrypto.AppImage
 
 
 Una vez abierto ya podemos ver la aplicación de MyCrypto abierta vamos a proceder a crear una nueva wallet para usarla con ENS. Para ello hacemos clic en _“Create New Wallet”_ y seleccionamos la opción del centro _“Create New Wallet”_, para este caso voy a usar la opción de _“Keystore File”_. 
+
 ![ens3](Images/ens3.png)
 ![ens4](Images/ens4.png)
 
 
 Introducimos una contraseña que sea segura y hacemos clic en _“Create New Wallet”_.
+
 ![ens5](Images/ens5.png)
 
 
