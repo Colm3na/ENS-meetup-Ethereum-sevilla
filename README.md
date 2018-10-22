@@ -58,3 +58,33 @@ Cuando hayan pasado los días necesarios para la finalización de nuestro domini
 ![ens13](Images/ens14.png)
 
 Si hemos seguido estos pasos ya tenemos nuestro dominio `.ens`, asi que desde ahora, en vez de tener que acordarnos de esa dirección tan larga (_de la que nadie se acuerda_), sólo debemos recordar el nombre que hemos seleccionado, y ese nombre será nuestra dirección de Ethereum.
+
+
+## Ahora vamos a proceder a tokenizar nuestro dominio:
+[ENS Nifty](https://ensnifty.com/) nos sirve para tokenizar nuestros dominios de ENS como si fueran tokens ERC-721, de esta manera podemos pasar o transferir más fácilmente nuestro dominio a otra wallet.
+
+En esta ocasión voy a usar el complemento de [Metamask](https://metamask.io/) para [Brave](https://brave.com/) (se puede usar cualquier navegador que tenga el complemento de Metamask). Para ello importamos la clave privada, una vez que estamos logueados en Metamask hacemos clic en _”Import Account”_, podemos seleccionar _”Private key”_ o _”JSON File”_, en mi caso copio y pego la `clave privada` y hacemos clic en _”Import”_  
+![niftyGif](Images/niftyGif.gif)
+
+Con estos pasos ya tenemos nuestra wallet creada anteriormente con MyCrypto importada en el complemento de Metamask.
+![nifty4](Images/nifty4.png)
+
+Una vez que tenemos la sesión iniciada en el complemento de Metamask, abrimos la página de ensnifty y hacemos clic en _”Connect to Metamask”_
+![niftyGif2](Images/niftyGif2.gif)
+
+Como vemos nos dice que no tenemos tokenizados ningún dominio, así que hacemos clic en _”Tokenize Domain”_
+![nifty7](Images/nifty7.png)
+
+Introducimos en el recuadro nuestro dominio y hacemos clic en _”Submit”_ (es importante poner el .eth, si no nos dará un error)
+![nifty9](Images/nifty9.png)
+
+Metamask tendrá una notificación, con los valores aproximados para la transacción que queremos hacer, yo no voy a modificar ningún valor
+![nifty10](Images/nifty10.png)
+
+Una vez que esa transacción se haya realizado sin problemas, Metamask tendrá otra notificación (como antes no voy a modificar los valores), hacemos clic en ella y aceptamos
+![nifty11](Images/nifty11.png)
+
+Cuando nuestra transacción haya finalizado podemos ver ambas con un ok en la página
+![nifty12](Images/nifty12.png)
+
+Si refrescamos la página y volvemos a hacer clic en _”Connect to Metamask”_ podemos ver que ya tenemos nuestro dominio tokenizado, o si abrimos nuestra wallet en un explorador de bloques nos aparecerá un token. Si algún día tenemos que mandarlo a otra wallet o queremos regalárselo a otra persona podemos transferirlo más fácilmente, espero que esta guía les sirva de ayuda.
