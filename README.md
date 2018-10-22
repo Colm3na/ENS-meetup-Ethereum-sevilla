@@ -19,3 +19,35 @@ Una vez abierto ya podemos ver la aplicación de MyCrypto abierta vamos a proced
     ##ens3.png
     ##ens4.png
 
+Introducimos una contraseña que sea segura y hacemos clic en “Create New Wallet”
+    ##ens5.png
+
+Descargamos el archivo en “Download Keystore File” y continuamos, en la siguiente pantalla nos saldrá información sobre nuestra wallet, como la clave privada, la imagen para el “Paper Wallet” por si queremos descargarla y tenerlo apuntado en un papel.
+    ##ens6.png
+
+Una vez creada la wallet y con los datos guardados vamos a proceder a usarla, para ello nos vamos a la página principal de la aplicación de MyCrypto (“View & Send”) y seleccionamos la opción “keystore File”.
+    ##ens7.png
+
+Vamos a comprobar que la dirección de ENS que queremos esté disponible, para ello en la aplicación de MyCrypto seleccionamos “ENS” e introducimos el dominio en el cual estamos interesados, y hacemos clic en “Check Availability”.
+    ##ens8.png
+
+Para este ejemplo comprobamos que “colmenacowork.eth” esté disponible, así que hacemos clic en “Open an auction on MyCrypto v3!” que nos llevará a la página de MyCrypto. Repetimos los pasos de introducir el nombre y comprobar que esté libre. Más abajo podemos ver las opciones para acceder a nuestra wallet. Como en pasos anteriores, seleccionamos la opción que deseemos y desbloqueamos nuestra cartera.
+    ##ens9.png
+
+Una vez que hemos seguido estos pasos nos saldrán varios datos que podemos modificar, yo los voy a dejar todos como están pero podemos modificarlos si lo deseamos y después hacemos clic en “Start the Auction”.
+    ##ens10.png
+
+Podemos ver que la siguiente imagen nos da información importante, como el día  que debemos revelar la oferta, el día que finaliza la subasta y más información. Hacemos clic en “Yes, I am sure! Make transaction”.
+    ##ens11.png
+
+Comprobamos en un explorador de bloques que nuestra transacción se ha realizado correctamente sin ningún error.
+    #ens12.png
+
+
+Después, debemos esperar el tiempo mínimo para revelar nuestra subasta. Una vez que ha pasado el tiempo necesario (3 días) podemos revelar nuestra oferta, para ello abrimos la pagina de MyCrypto, hacemos clic en “TOOLS” > “ENS Domains”, introducimos nuestro dominio y nos redirige a la página legacy de MyCrypto y desbloqueamos nuestra wallet. 
+Una vez desbloqueada debemos introducir en el espacio “Long string of text you copied” el texto copiado y hacemos clic en “Reveal your Bid” 
+    ##ens13.png
+
+Cuando hayan pasado los días necesarios para la finalización de nuestro dominio podemos entrar en [MyCrypto](https://mycrypto.com/ens) introducir nuestro dominio y veremos que ya es nuestro.
+    ##ens14.png
+    
