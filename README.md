@@ -84,7 +84,7 @@ Como vemos nos dice que no tenemos tokenizados ningún dominio, así que hacemos
 ![nifty7](Images/nifty7.png)
 
 
-Introducimos en el recuadro nuestro dominio y hacemos clic en _”Submit”_ (es importante poner el .eth, si no nos dará un error)
+Introducimos en el recuadro nuestro dominio y hacemos clic en _”Submit”_ (**es importante poner el .eth, si no nos dará un error**)
 ![nifty9](Images/nifty9.png)
 
 Metamask tendrá una notificación, con los valores aproximados para la transacción que queremos hacer, yo no voy a modificar ningún valor
@@ -93,7 +93,9 @@ Metamask tendrá una notificación, con los valores aproximados para la transacc
 
 
 Una vez que esa transacción se haya realizado sin problemas, Metamask tendrá otra notificación (como antes no voy a modificar los valores), hacemos clic en ella y aceptamos
+
 ![nifty11](Images/nifty11.png)
+
 
 Cuando nuestra transacción haya finalizado podemos ver ambas con un ok en la página
 ![nifty12](Images/nifty12.png)
