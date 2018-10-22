@@ -7,7 +7,7 @@ Para registrar nuestro dominio en [ENS](https://ens.domains/) vamos a usar [MyCr
  ```
  $ chmod a+x linux-x86-64_1.4.0_MyCrypto.AppImage
  ```
-    ![ens1.png](/images/ens1.png)
+    ![ens1.png](/Images/ens1.png)
 
 Y lo ejecutamos con (posteriormente ya podemos abrirlo haciendo clic en el icono) :
 ```
