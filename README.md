@@ -1,6 +1,47 @@
 ## ENS meetup Ethereum Sevilla
 Repositorio para el workshop del [meetup de Ethereum Sevilla](https://secure.meetup.com/es/register/?ctx=ref) sobre [ENS](https://ens.domains/), y como tokenizar nuestro dominio con [ENS Nifty](https://ensnifty.com/), asi podemos intercambiar el dominio o delegarlo a otra wallet.
 
+ENS es un servicio de nombres de Etherum, distribuidos, abiertos y extensible basado en la cadena de bloques de Ethereum. ENS mapea nombres legibles por las personas a identificadores legibles por máquinas (direcciones de Ethereum, hashes de contenidos y metadatos),  por ejemplo, en lugar de 0xFls898Klkd……., usaríamos ‘miDomino.eth’.
+
+Los objetivos de ENS son parecidos a los de DNS, pero con una arquitectura diferente, debido a las capacidades y restricciones de la cadena de bloques. ENS opera en un sistema de nombres jerárquicos separados por puntos llamados dominios, con el control por parte del propietario sobre la asignación de subdominios, una vez que tiene un dominio puedes configurarlo como prefieras,  crear subdominios y asignarlos como mejor consideremos. 
+
+Los dominios de nivel superior (.eth, .test) son propiedad de los contratos inteligentes llamados registradores, que especifican las reglas de asignación de sus subdominios. ENS tiene dos componentes principales: el registro y los resolutores. El registro consta de un contrato inteligente que mantiene una lista de todos los dominios y subdominios y almacena tres datos importantes sobre cada uno:
+
+- El propietario del dominio
+- El resolutor para el dominio
+- El tiempo de vida para todos los registros bajo el dominio
+
+El propietario de un dominio puede ser una cuenta externa (un usuario) o un contrato inteligente. Un registrador es un contrato inteligente que posee un dominio y emite subdominios de ese dominio a los usuarios que siguen las reglas definidas en el contrato. 
+
+Los propietarios de dominios en el registro ENS pueden:
+
+- Establecer el resolutor y el TTL para el dominio
+- Transferir la propiedad del dominio a otra dirección 
+- Cambiar la propiedad de los subdominios 
+
+ENS se implementa en la red principal en [0x314159265dd8dbb310642f98f50c066173c1259b](https://etherscan.io/address/0x314159265dd8dbb310642f98f50c066173c1259b) donde los usuarios pueden registrar nombres bajo el eth TLD(Top level domains), que utiliza un registrador basado en subastas. 
+
+ENS también se implementa en la testnet de Ropsten [0x112234455c3a32fd11230c42e7bccd4a84e02010](https://ropsten.etherscan.io/address/0x112234455c3a32fd11230c42e7bccd4a84e02010). Los usuarios pueden registrar nombres en dos dominios de nivel superior:
+
+- .eth para la red principal. 
+- .test que permite utilizar un nombre no utilizado para fines de prueba, expira en 28 días
+
+## ¿Por qué querría un nombre de ENS?
+
+ENS elimina la necesidad de escribir largas direcciones hexadecimales. Con ENS puedes enviar dinero a ‘miDominio.eth’ en vez de tener que escribir la dirección hexadecimal (0xFhgso0328G…),  interactuar con contratos inteligentes o visitar un sitio alojado en Swram.
+
+## ¿Como funciona las subastas de nombres?
+
+Los nuevos nombres se asignan mediante un proceso de subastas basado en una “subasta de Vickrey” y constan de tres etapas:
+
+1. Primero alguien puja por un nombre que desea comprar y abre el periodo de subastas que dura tres días, en este periodo otras personas podrán realizar sus pujas. Durante este periodo los detalles de la puja se ocultan: nadie puede decir cuanto puja, ni siquiera que nombre está ofertando.
+
+2. Una vez finalizado el periodo de tres días empieza la etapa de revelaciones. Los participantes tienen dos días para revelar sus ofertas, si no lo hacen pierden toda su oferta. Si su oferta no es la más alta, se les reembolsará su oferta menos un tarifa del 0.5% de fee.
+
+3. Al final de revelación el ganador es la persona que realizó la puja más alta, pero solo tiene que pagar la cantidad de la segunda puja más alta. La puja quedará bloqueada por un contrato hasta que envíe una transacción de finalización para recibir un reembolso de los fondos adicionales y se le asignará el control del nombre ENS.
+
+Cuando alguien gana una subasta, el nombre es suyo durante la duración del registro inicial. Después de un año puede optar por liberar el nombre y recuperar el monto total de su deposito.
+
 > (La parte de usar la App de MyCrypto es opcional, podemos usar cualquier gestor de carteras de Ethereum)
 
 Para registrar nuestro dominio en [ENS](https://ens.domains/) vamos a usar [MyCrypto](https://mycrypto.com/). Para ello nos vamos a su página o usamos su aplicación, yo he decidido usar la aplicación que podemos descargar desde su [github](https://github.com/MyCryptoHQ/MyCrypto/releases). A día de hoy es la versión 1.4.0, uso Linux, así que me descargo el [paquete](https://github.com/MyCryptoHQ/MyCrypto/releases/download/1.4.0/linux-x86-64_1.4.0_MyCrypto.AppImage) para Linux de 64Bits.
