@@ -40,6 +40,9 @@ Los nuevos nombres se asignan mediante un proceso de subastas basado en una _“
 
 Cuando alguien gana una subasta, el nombre es suyo durante la duración del registro inicial. Después de un año puede optar por liberar el nombre y recuperar el monto total de su deposito.
 
+
+
+# Creación de una wallet con MyCrypto
 > (La parte de usar la App de MyCrypto es opcional, podemos usar cualquier gestor de carteras de Ethereum)
 
 Para registrar nuestro dominio en [ENS](https://ens.domains/) vamos a usar [MyCrypto](https://mycrypto.com/). Para ello nos vamos a su página o usamos su aplicación. Para este workshop he decidido usar la aplicación que podemos descargar desde su [GitHub](https://github.com/MyCryptoHQ/MyCrypto/releases). La versión 1.4.0 es la última a día de hoy.
