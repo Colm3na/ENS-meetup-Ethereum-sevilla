@@ -6,7 +6,7 @@ ENS es un servicio de nombres de Etherum, distribuido, abierto y extensible basa
 
 Los objetivos de ENS son parecidos a los de DNS, pero con una arquitectura diferente, debido a las capacidades y restricciones de la cadena de bloques. ENS opera en un sistema de nombres jerárquicos separados por puntos llamados dominios, con el control por parte del propietario sobre la asignación de subdominios, una vez que tiene un dominio puede configurarlo como prefiera, crear subdominios y asignarlos como mejor consideremos. 
 
-Los dominios de nivel superior (`.eth, .test`) son propiedad de los contratos inteligentes llamados registradores, que especifican las reglas de asignación de sus subdominios. ENS tiene dos componentes principales: el registro y los resolutores. El registro consta de un contrato inteligente que mantiene una lista de todos los dominios y subdominios y almacena tres datos importantes sobre cada uno:
+Los dominios de nivel superior (`.eth`, `.test`) son propiedad de los contratos inteligentes llamados registradores, que especifican las reglas de asignación de sus subdominios. ENS tiene dos componentes principales: el registro y los resolutores. El registro consta de un contrato inteligente que mantiene una lista de todos los dominios y subdominios y almacena tres datos importantes sobre cada uno:
 * El propietario del dominio
 * El resolutor para el dominio
 * El tiempo de vida para todos los registros bajo el dominio
@@ -18,11 +18,11 @@ Los propietarios de dominios en el registro ENS pueden:
 * Transferir la propiedad del dominio a otra dirección 
 * Cambiar la propiedad de los subdominios 
 
-ENS se implementa en la red principal en [0x314159265dd8dbb310642f98f50c066173c1259b](https://etherscan.io/address/0x314159265dd8dbb310642f98f50c066173c1259b) donde los usuarios pueden registrar nombres bajo el eth TLD(_Top level domains_), que utiliza un registrador basado en subastas. 
+ENS se implementa en la red principal en [0x314159265dd8dbb310642f98f50c066173c1259b](https://etherscan.io/address/0x314159265dd8dbb310642f98f50c066173c1259b) donde los usuarios pueden registrar nombres bajo el eth TLD(_Top Level Domains_), que utiliza un registrador basado en subastas. 
 
 ENS también se implementa en la testnet de Ropsten [0x112234455c3a32fd11230c42e7bccd4a84e02010](https://ropsten.etherscan.io/address/0x112234455c3a32fd11230c42e7bccd4a84e02010). Los usuarios pueden registrar nombres en dos dominios de nivel superior:
-* .eth para la red principal. 
-* .test que permite utilizar un nombre no utilizado para fines de prueba, expira en 28 días.
+* `.eth` para la red principal. 
+* `.test` que permite utilizar un nombre no utilizado para fines de prueba, expira en 28 días.
 
 ## ¿Por qué adquirir un nombre de ENS?
 
